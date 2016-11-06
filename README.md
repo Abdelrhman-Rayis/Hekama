@@ -4,7 +4,7 @@
 is made using **Android stedio**
 this app main idea is how to give advice for good person 
 and another type of advice for bad people i think the idea is not 
-compelete yet :)
+complete yet :)
 ##Implementation  :
 ![goodp](https://cloud.githubusercontent.com/assets/12293949/20040206/4061b47c-a464-11e6-836d-d83a49ac9f3e.PNG)
 
