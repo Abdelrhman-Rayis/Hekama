@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main2"
+    android:id="@+id/activity_main3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.hekama.Main2Activity">
-
+     tools:context="com.example.user.hekama.Main3Activity">
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,20 +21,20 @@
         android:text="Back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-         android:textSize="20dp"
+        android:textSize="20dp"
         android:background="@color/colorAccent"
         android:textColor="@color/white"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="34dp"
-        android:id="@+id/back" />
+        android:id="@+id/bback" />
 
     <TextView
         android:textSize="30dp"
         android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/textView"
+        android:id="@+id/btextView"
         android:background="@color/transpblack"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"

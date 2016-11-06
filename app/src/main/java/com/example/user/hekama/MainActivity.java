@@ -24,11 +24,22 @@ public class MainActivity extends AppCompatActivity {
                 goTogood(gHekama);
             }
         });
+        badButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goTogood(bHekama);
+            }
+        });
 
     }
     private void goTogood(String hekama){
         Intent intent = new Intent(this,Main2Activity.class);
         intent.putExtra("good Hekama",hekama);
+        startActivity(intent);
+    }
+    private void goTobad(String hekama){
+        Intent intent = new Intent(this,Main3Activity.class);
+        intent.putExtra("Hekama4bad", hekama);
         startActivity(intent);
     }
 }
