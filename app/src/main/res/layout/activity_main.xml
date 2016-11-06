@@ -23,7 +23,7 @@
          <Button
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             android:text="Bad Person"
+             android:text="@string/bad_person"
              android:textSize="50dp"
              android:background="#a4000000"
              android:textColor="@color/white"
@@ -51,7 +51,7 @@
          <Button
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             android:text="good Person"
+             android:text="@string/good_person"
              android:textSize="50dp"
              android:background="#a4000000"
              android:textColor="@color/white"

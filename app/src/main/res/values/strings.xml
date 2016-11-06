@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Hekama</string>
+    <string name="bad_person">Bad Person</string>
+    <string name="good_person">good Person</string>
+    <string name="when_you_give_advice_try_to_be_cool_and_alone_with_out_embarrassing_the_person">When you give advice try to be cool and alone with out embarrassing the person .</string>
 </resources>
