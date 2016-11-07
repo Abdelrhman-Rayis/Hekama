@@ -3,15 +3,26 @@ package com.example.user.hekama;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.user.hekama.date.AdviceDataSource;
+import com.example.user.hekama.date.AdviceItem;
+
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
+    private AdviceDataSource dataSource;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        dataSource = new AdviceDataSource();
+        List<AdviceItem> Advices = dataSource.findAll();
+        AdviceItem advice = Advices.get(0);
+        Log.i("Advice", advice.getKey());
         final   Button goodButton =  (Button) (findViewById(R.id.goodButton));
         final String gHekama = "When you give advice try to be cool and alone with out embarrassing the person  . (;";
         final String bHekama = "Be smart don't try to show you'er righ or you wont to judge him or her :) life is not black or white";
