@@ -22,14 +22,15 @@
 
          <Button
              android:layout_width="match_parent"
-             android:layout_height="match_parent"
+             android:layout_height="wrap_content"
              android:text="@string/bad_person"
-             android:textSize="50dp"
+             android:textSize="40dp"
              android:background="#a4000000"
              android:textColor="@color/white"
-             android:id="@+id/badButton" />
-
-
+             android:id="@+id/badButton"
+             android:layout_weight="0.5"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentStart="true" />
 
 
      </RelativeLayout>
@@ -47,15 +48,23 @@
              android:layout_alignParentTop="true"
              android:layout_alignParentStart="true"
              android:scrollbarAlwaysDrawHorizontalTrack="false"/>
-             android:id="@+id/imageView2" />
+
          <Button
              android:layout_width="match_parent"
-             android:layout_height="match_parent"
+             android:layout_height="wrap_content"
              android:text="@string/good_person"
-             android:textSize="50dp"
+             android:textSize="40dp"
              android:background="#a4000000"
              android:textColor="@color/white"
-             android:id="@+id/goodButton" />
+             android:id="@+id/goodButton"
+             android:layout_alignParentBottom="true"
+             android:layout_centerHorizontal="true" />
+         <![CDATA[
 
+
+             android:id="@+id/imageView2" />
+
+
+     ]]>
      </RelativeLayout>
  </LinearLayout>
